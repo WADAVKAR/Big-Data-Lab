@@ -1,12 +1,7 @@
-# Big-Data-Lab
-Weekly Assignments 
-  Assignment - Lab 3
+Assignment - Lab 3
 ME16B172 - Sushant Uttam Wadavkar
 1. The screenshot for logs of all the 3 tasks containing the required result - line count using VM, Cloud Functions and DataFlow, are provided below along with the python file for each task attached in the zip file.
-VM1&2
-  Cloud Function:
- 
- Dataflow:
+
 2. The screenshot for the execution graph created by Dataflow in the background for the pipeline object created in task 3 is being attached.
    
   3. The PCollection abstraction represents a potentially distributed, multi-element data set. PCollection can be thought of as “pipeline” data; Beam transforms use PCollection objects as inputs and outputs. As such, to work on data in pipeline, it must be in the form of a PCollection. It takes input in the form of PCollection. We need to create a bucket in which output would be stored. We used the command beam.combiners.Count.Globally() to count the number of elements present in the given form of pipeline.
