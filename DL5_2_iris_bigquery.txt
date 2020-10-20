@@ -1,0 +1,10 @@
+SELECT
+class,COUNT(*) AS count
+FROM
+iris.data_iris
+WHERE
+class = 'Iris-virginica'
+AND sepal_width_in_cm > 3
+AND petal_length_in_cm < 2
+GROUP BY
+class
